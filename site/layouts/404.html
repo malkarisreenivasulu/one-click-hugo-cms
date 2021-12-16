@@ -1,6 +1,5 @@
-{{ define "main" }}
-
-<h1>Nothing Here...</h1>
-<h3><a href="{{ "/" | relURL }}">Go Home</a></h3>
-
-{{ end }}
+{{ partial "header.html" . }}
+<section class="p-notfound">
+  <h1>404</h1>
+</section>
+{{ partial "footer.html" . }}
